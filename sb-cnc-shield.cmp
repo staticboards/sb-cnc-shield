@@ -1,0 +1,507 @@
+Cmp-Mod V01 Created by PcbNew   date = 14/01/2016 18:23:43
+
+BeginCmp
+TimeStamp = 5648FFA8
+Path = /56463A4A
+Reference = U1;
+ValeurCmp = ARDUINO_UNO_SHIELD;
+IdModule  = footprints:ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A10A7
+Path = /564A0BDA
+Reference = U2;
+ValeurCmp = X;
+IdModule  = footprints:POLOLU_STEPPER_DRIVER;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A0C1C
+Path = /564A0C3D
+Reference = U4;
+ValeurCmp = Z;
+IdModule  = footprints:POLOLU_STEPPER_DRIVER;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A0C30
+Path = /564A0A1C
+Reference = U5;
+ValeurCmp = A;
+IdModule  = footprints:POLOLU_STEPPER_DRIVER;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A0C08
+Path = /564A0B57
+Reference = U3;
+ValeurCmp = Y;
+IdModule  = footprints:POLOLU_STEPPER_DRIVER;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D6B
+Path = /564A450B
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D71
+Path = /564A5A36
+Reference = R2;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D77
+Path = /564A7B69
+Reference = R3;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D7D
+Path = /564A91EA
+Reference = R4;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B6FD4
+Path = /564B89A6
+Reference = C1;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B6FDA
+Path = /564B92D5
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B6FE0
+Path = /564B97A3
+Reference = C3;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B6FE6
+Path = /564B9BBA
+Reference = C4;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B857E
+Path = /564BA9FD
+Reference = P5;
+ValeurCmp = UART;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8586
+Path = /564BAB20
+Reference = P6;
+ValeurCmp = I2C;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B858D
+Path = /564C03A6
+Reference = P7;
+ValeurCmp = ES_SETUP;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C7902
+Path = /564CCC22
+Reference = JP35;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C791A
+Path = /564CCE18
+Reference = JP39;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C791B
+Path = /564A113B
+Reference = P1;
+ValeurCmp = XMOT;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C7926
+Path = /564A22A0
+Reference = P2;
+ValeurCmp = YMOT;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C7931
+Path = /564A2333
+Reference = P3;
+ValeurCmp = ZMOT;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C793C
+Path = /564A241A
+Reference = P4;
+ValeurCmp = AMOT;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 564DEF57
+Path = /564DCAAE
+Reference = P8;
+ValeurCmp = 12V-36V;
+IdModule  = footprints:CONN_01x02_PITCH_5.08mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564DEF64
+Path = /564CBEF5
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = footprints:SWITCH_TACTILE_6.5_PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = 564DFECD
+Path = /564DFF4C
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 568EC7FD
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = footprints:staticboards_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D23
+Path = /564A34A3
+Reference = JP1;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D29
+Path = /564A35E2
+Reference = JP2;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D2F
+Path = /564A3651
+Reference = JP3;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D47
+Path = /564A7507
+Reference = JP7;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D4D
+Path = /564A7616
+Reference = JP8;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D53
+Path = /564A78CF
+Reference = JP9;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D35
+Path = /564A5AD3
+Reference = JP4;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D3B
+Path = /564A5BAE
+Reference = JP5;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D41
+Path = /564A5C37
+Reference = JP6;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D59
+Path = /564A870A
+Reference = JP10;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D5F
+Path = /564A87D1
+Reference = JP11;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564A1D65
+Path = /564A8AA4
+Reference = JP12;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8534
+Path = /564BC59D
+Reference = JP13;
+ValeurCmp = Z+;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B853A
+Path = /564BC6D0
+Reference = JP14;
+ValeurCmp = Z-;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8540
+Path = /564BC731
+Reference = JP15;
+ValeurCmp = Y+;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8546
+Path = /564BC78A
+Reference = JP16;
+ValeurCmp = Y-;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B854C
+Path = /564BC7ED
+Reference = JP17;
+ValeurCmp = X+;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8552
+Path = /564BC84E
+Reference = JP18;
+ValeurCmp = X-;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8558
+Path = /564BC8AD
+Reference = JP19;
+ValeurCmp = SpinEn;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B855E
+Path = /564BC918
+Reference = JP20;
+ValeurCmp = SpinDir;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8564
+Path = /564BC98D
+Reference = JP21;
+ValeurCmp = CoolEn;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B856A
+Path = /564BF2C2
+Reference = JP22;
+ValeurCmp = Abort;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8570
+Path = /564BF417
+Reference = JP23;
+ValeurCmp = Hold;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B8576
+Path = /564BF484
+Reference = JP24;
+ValeurCmp = Resume;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6CCF
+Path = /564CC06A
+Reference = JP25;
+ValeurCmp = ESTOP;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6ED4
+Path = /564C7EE6
+Reference = JP26;
+ValeurCmp = EN/GND;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6EDA
+Path = /564C80C7
+Reference = JP27;
+ValeurCmp = XSTEP/DIR;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6EE0
+Path = /564C8122
+Reference = JP28;
+ValeurCmp = YSTEP/DIR;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6EE6
+Path = /564C817D
+Reference = JP29;
+ValeurCmp = ZSTEP/DIR;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6EEC
+Path = /564C81DA
+Reference = JP30;
+ValeurCmp = ASTEP/DIR;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C6EF2
+Path = /564C8239
+Reference = JP31;
+ValeurCmp = +5V/GND;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C78F0
+Path = /564CCA71
+Reference = JP32;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C7908
+Path = /564CCCA9
+Reference = JP36;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C78F6
+Path = /564CCAD8
+Reference = JP33;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C790E
+Path = /564CCD3E
+Reference = JP37;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C78FC
+Path = /564CCB81
+Reference = JP34;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C7914
+Path = /564CCDB9
+Reference = JP38;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = footprints:Pin_100mil_Header_Straight_1x02;
+EndCmp
+
+EndListe

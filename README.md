@@ -3,6 +3,11 @@
 This is a rework of the original arduino cnc shiled http://blog.protoneer.co.nz/arduino-cnc-shield/
 
 ![staticboards Arduino CNC shield](/img/full-with-stepper-700px.jpg?raw=true "staticboards Arduino CNC shield")
+![staticboards Arduino CNC shield](/img/product-700px.jpg?raw=true "staticboards Arduino CNC shield")
+![staticboards Arduino CNC shield](/img/pcb.png?raw=true "PCB")
+![staticboards Arduino CNC shield](/img/silk.png?raw=true "Silk Screen")
+![staticboards Arduino CNC shield](/img/schematic.png?raw=true "Schematic")
+
 
 ## Why did you make a new Arduino CNC shield?
 
@@ -83,7 +88,7 @@ To build a complete CNC machine you will need:
 - https://github.com/grbl/grbl : GRBL firmware. You should learn how to use it
 - https://github.com/winder/Universal-G-Code-Sender Graphical Interface, written in Java
 - https://www.staticboards.com/ : Our website
-- Github with the source code
+- https://github.com/staticboards/sb-cnc-shield : github original repository
 
 ## License
 

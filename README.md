@@ -1,6 +1,8 @@
-# This is the Arduino shield for low-cost CNC machines.
+# This is the staticboards Arduino CNC shield for low-cost CNC machines.
 
 This is a rework of the original arduino cnc shiled http://blog.protoneer.co.nz/arduino-cnc-shield/
+
+![staticboards Arduino CNC shield](/img/full-with-stepper-700px.jpg?raw=true "staticboards Arduino CNC shield")
 
 ## Why did you make a new Arduino CNC shield?
 

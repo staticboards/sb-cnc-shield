@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>Z:/staticboards/altium/kicad/projects/sb-cnc-shield/sb-cnc-shield.sch</source>
+    <date>15/06/2016 16:24:03</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sb-cnc-shield.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ARDUINO_UNO_SHIELD</value>
+      <footprint>footprints:ARDUINO_SHIELD</footprint>
+      <libsource lib="staticboards" part="ARDUINO_UNO_SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56463A4A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>A</value>
+      <footprint>footprints:POLOLU_STEPPER_DRIVER</footprint>
+      <libsource lib="staticboards" part="POLOLU_STEPPER_DRIVER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A0A1C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Y</value>
+      <footprint>footprints:POLOLU_STEPPER_DRIVER</footprint>
+      <libsource lib="staticboards" part="POLOLU_STEPPER_DRIVER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A0B57</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>X</value>
+      <footprint>footprints:POLOLU_STEPPER_DRIVER</footprint>
+      <libsource lib="staticboards" part="POLOLU_STEPPER_DRIVER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A0BDA</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Z</value>
+      <footprint>footprints:POLOLU_STEPPER_DRIVER</footprint>
+      <libsource lib="staticboards" part="POLOLU_STEPPER_DRIVER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A0C3D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>XMOT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A113B</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>YMOT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A22A0</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>ZMOT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A2333</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>AMOT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A241A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A34A3</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A35E2</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A3651</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A450B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A5A36</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A5AD3</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A5BAE</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A5C37</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A7507</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A7616</tstamp>
+    </comp>
+    <comp ref="JP9">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A78CF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A7B69</tstamp>
+    </comp>
+    <comp ref="JP10">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A870A</tstamp>
+    </comp>
+    <comp ref="JP11">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A87D1</tstamp>
+    </comp>
+    <comp ref="JP12">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A8AA4</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A91EA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:c_elec_6.3x7.7</footprint>
+      <libsource lib="sb-cnc-shield-rescue" part="CAP_ELECTRO-RESCUE-sb-cnc-shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564B89A6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:c_elec_6.3x7.7</footprint>
+      <libsource lib="sb-cnc-shield-rescue" part="CAP_ELECTRO-RESCUE-sb-cnc-shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564B92D5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:c_elec_6.3x7.7</footprint>
+      <libsource lib="sb-cnc-shield-rescue" part="CAP_ELECTRO-RESCUE-sb-cnc-shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564B97A3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:c_elec_6.3x7.7</footprint>
+      <libsource lib="sb-cnc-shield-rescue" part="CAP_ELECTRO-RESCUE-sb-cnc-shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564B9BBA</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>UART</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BA9FD</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>I2C</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BAB20</tstamp>
+    </comp>
+    <comp ref="JP13">
+      <value>Z+</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC59D</tstamp>
+    </comp>
+    <comp ref="JP14">
+      <value>Z-</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC6D0</tstamp>
+    </comp>
+    <comp ref="JP15">
+      <value>Y+</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC731</tstamp>
+    </comp>
+    <comp ref="JP16">
+      <value>Y-</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC78A</tstamp>
+    </comp>
+    <comp ref="JP17">
+      <value>X+</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC7ED</tstamp>
+    </comp>
+    <comp ref="JP18">
+      <value>X-</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC84E</tstamp>
+    </comp>
+    <comp ref="JP19">
+      <value>SpinEn</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC8AD</tstamp>
+    </comp>
+    <comp ref="JP20">
+      <value>SpinDir</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC918</tstamp>
+    </comp>
+    <comp ref="JP21">
+      <value>CoolEn</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BC98D</tstamp>
+    </comp>
+    <comp ref="JP22">
+      <value>Abort</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BF2C2</tstamp>
+    </comp>
+    <comp ref="JP23">
+      <value>Hold</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BF417</tstamp>
+    </comp>
+    <comp ref="JP24">
+      <value>Resume</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BF484</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>ES_SETUP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C03A6</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>footprints:SWITCH_TACTILE_6.5_PTH</footprint>
+      <libsource lib="staticboards" part="SW_PUSH_4P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CBEF5</tstamp>
+    </comp>
+    <comp ref="JP25">
+      <value>ESTOP</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CC06A</tstamp>
+    </comp>
+    <comp ref="JP26">
+      <value>EN/GND</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C7EE6</tstamp>
+    </comp>
+    <comp ref="JP27">
+      <value>XSTEP/DIR</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C80C7</tstamp>
+    </comp>
+    <comp ref="JP28">
+      <value>YSTEP/DIR</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C8122</tstamp>
+    </comp>
+    <comp ref="JP29">
+      <value>ZSTEP/DIR</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C817D</tstamp>
+    </comp>
+    <comp ref="JP30">
+      <value>ASTEP/DIR</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C81DA</tstamp>
+    </comp>
+    <comp ref="JP31">
+      <value>+5V/GND</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564C8239</tstamp>
+    </comp>
+    <comp ref="JP32">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCA71</tstamp>
+    </comp>
+    <comp ref="JP33">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCAD8</tstamp>
+    </comp>
+    <comp ref="JP34">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCB81</tstamp>
+    </comp>
+    <comp ref="JP35">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCC22</tstamp>
+    </comp>
+    <comp ref="JP36">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCCA9</tstamp>
+    </comp>
+    <comp ref="JP37">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCD3E</tstamp>
+    </comp>
+    <comp ref="JP38">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCDB9</tstamp>
+    </comp>
+    <comp ref="JP39">
+      <value>Jumper_NO_Small</value>
+      <footprint>footprints:Pin_100mil_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564CCE18</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>12V-36V</value>
+      <footprint>footprints:CONN_01x02_PITCH_5.08mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564DCAAE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564DFF4C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="staticboards" part="ARDUINO_UNO_SHIELD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO_UNO_SHIELD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D0/RX" type="passive"/>
+        <pin num="2" name="D1/TX" type="passive"/>
+        <pin num="3" name="D2" type="passive"/>
+        <pin num="4" name="D3" type="passive"/>
+        <pin num="5" name="D4" type="passive"/>
+        <pin num="6" name="D5" type="passive"/>
+        <pin num="7" name="D6" type="passive"/>
+        <pin num="8" name="D7" type="passive"/>
+        <pin num="9" name="D8" type="passive"/>
+        <pin num="10" name="D9" type="passive"/>
+        <pin num="11" name="D10" type="passive"/>
+        <pin num="12" name="D11" type="passive"/>
+        <pin num="13" name="D12" type="passive"/>
+        <pin num="14" name="D13" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="AREF" type="passive"/>
+        <pin num="17" name="A5" type="passive"/>
+        <pin num="18" name="A4" type="passive"/>
+        <pin num="19" name="A3" type="passive"/>
+        <pin num="20" name="A2" type="passive"/>
+        <pin num="21" name="A1" type="passive"/>
+        <pin num="22" name="A0" type="passive"/>
+        <pin num="23" name="VIN" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="5V" type="passive"/>
+        <pin num="27" name="3V3" type="passive"/>
+        <pin num="28" name="RESET" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sb-cnc-shield-rescue" part="CAP_ELECTRO-RESCUE-sb-cnc-shield">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_ELECTRO-RESCUE-sb-cnc-shield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="staticboards" part="POLOLU_STEPPER_DRIVER">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">POLOLU_STEPPER_DRIVER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="MS1" type="input"/>
+        <pin num="3" name="MS2" type="input"/>
+        <pin num="4" name="MS3" type="input"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="SLP" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+        <pin num="11" name="1B" type="input"/>
+        <pin num="12" name="1A" type="input"/>
+        <pin num="13" name="2A" type="input"/>
+        <pin num="14" name="2B" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="VMOT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="staticboards" part="SW_PUSH_4P">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_4P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="sb-cnc-shield-rescue">
+      <uri>Z:\staticboards\altium\kicad\projects\sb-cnc-shield\sb-cnc-shield-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="staticboards">
+      <uri>Z:\staticboards\altium\kicad\lib\staticboards.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="COOLANT">
+      <node ref="U1" pin="19"/>
+      <node ref="JP21" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="24"/>
+      <node ref="JP19" pin="1"/>
+      <node ref="JP20" pin="1"/>
+      <node ref="JP21" pin="1"/>
+      <node ref="P6" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="JP25" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="JP31" pin="2"/>
+      <node ref="JP26" pin="2"/>
+      <node ref="JP24" pin="1"/>
+      <node ref="JP23" pin="1"/>
+      <node ref="JP22" pin="1"/>
+      <node ref="P7" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="3" name="ABORT">
+      <node ref="JP22" pin="2"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="4" name="HOLD">
+      <node ref="JP23" pin="2"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="5" name="RESUME">
+      <node ref="JP24" pin="2"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="6" name="SDA">
+      <node ref="U1" pin="18"/>
+      <node ref="P6" pin="3"/>
+    </net>
+    <net code="7" name="SCL">
+      <node ref="P6" pin="4"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="9" name="SPIN_DIR">
+      <node ref="U1" pin="14"/>
+      <node ref="JP20" pin="2"/>
+      <node ref="JP39" pin="1"/>
+    </net>
+    <net code="10" name="ZDIR">
+      <node ref="JP29" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="JP38" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="11" name="YDIR">
+      <node ref="U1" pin="7"/>
+      <node ref="U3" pin="8"/>
+      <node ref="JP28" pin="2"/>
+      <node ref="JP37" pin="1"/>
+    </net>
+    <net code="12" name="XDIR">
+      <node ref="JP27" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="6"/>
+      <node ref="JP36" pin="1"/>
+    </net>
+    <net code="13" name="ZSTEP">
+      <node ref="U1" pin="5"/>
+      <node ref="JP29" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="JP34" pin="1"/>
+    </net>
+    <net code="14" name="YSTEP">
+      <node ref="JP33" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="JP28" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="15" name="XSTEP">
+      <node ref="JP32" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="JP27" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="16" name="TX">
+      <node ref="P5" pin="3"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="17" name="RX">
+      <node ref="U1" pin="1"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="18" name="+3V3">
+      <node ref="U1" pin="27"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="JP31" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="JP6" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="JP9" pin="1"/>
+      <node ref="JP8" pin="1"/>
+      <node ref="JP7" pin="1"/>
+      <node ref="JP12" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P5" pin="2"/>
+      <node ref="JP11" pin="1"/>
+      <node ref="JP10" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U2" pin="10"/>
+      <node ref="JP5" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="20" name="EN">
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="JP26" pin="1"/>
+    </net>
+    <net code="21" name="SPIN_EN">
+      <node ref="JP19" pin="2"/>
+      <node ref="JP35" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="22" name="ZLIMIT">
+      <node ref="U1" pin="13"/>
+      <node ref="JP14" pin="2"/>
+      <node ref="JP13" pin="2"/>
+    </net>
+    <net code="23" name="YLIMIT">
+      <node ref="JP16" pin="2"/>
+      <node ref="JP15" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="24" name="XLIMIT">
+      <node ref="JP18" pin="2"/>
+      <node ref="JP17" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="25" name="GNDA">
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U4" pin="15"/>
+      <node ref="P8" pin="2"/>
+      <node ref="U5" pin="15"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="27" name="Net-(JP11-Pad2)">
+      <node ref="JP11" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="28" name="Net-(JP12-Pad2)">
+      <node ref="U5" pin="4"/>
+      <node ref="JP12" pin="2"/>
+    </net>
+    <net code="29" name="Net-(JP10-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="JP10" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="30" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="31" name="EN_SETUP">
+      <node ref="JP13" pin="1"/>
+      <node ref="JP16" pin="1"/>
+      <node ref="JP15" pin="1"/>
+      <node ref="JP14" pin="1"/>
+      <node ref="JP17" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="JP18" pin="1"/>
+    </net>
+    <net code="32" name="ADIR">
+      <node ref="JP36" pin="2"/>
+      <node ref="JP37" pin="2"/>
+      <node ref="JP38" pin="2"/>
+      <node ref="JP39" pin="2"/>
+      <node ref="JP30" pin="2"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="33" name="VIN">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U3" pin="16"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="35" name="ASTEP">
+      <node ref="U5" pin="7"/>
+      <node ref="JP35" pin="2"/>
+      <node ref="JP30" pin="1"/>
+      <node ref="JP34" pin="2"/>
+      <node ref="JP33" pin="2"/>
+      <node ref="JP32" pin="2"/>
+    </net>
+    <net code="36" name="RESET">
+      <node ref="JP25" pin="2"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="P6" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="37" name="Net-(P3-Pad4)">
+      <node ref="U4" pin="11"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="38" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="39" name="Net-(P3-Pad2)">
+      <node ref="P3" pin="2"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="40" name="Net-(P3-Pad3)">
+      <node ref="P3" pin="3"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="41" name="Net-(JP1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="42" name="Net-(JP4-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="43" name="Net-(P4-Pad4)">
+      <node ref="U5" pin="11"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="44" name="Net-(P4-Pad3)">
+      <node ref="U5" pin="12"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="45" name="Net-(P4-Pad2)">
+      <node ref="P4" pin="2"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="46" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="47" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="48" name="Net-(JP2-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="49" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="51" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="52" name="Net-(P1-Pad3)">
+      <node ref="U2" pin="12"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(P1-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="54" name="Net-(JP8-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="JP8" pin="2"/>
+    </net>
+    <net code="55" name="Net-(JP9-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="JP9" pin="2"/>
+    </net>
+    <net code="56" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="57" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="59" name="Net-(P2-Pad4)">
+      <node ref="U3" pin="11"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="60" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="61" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="62" name="Net-(P2-Pad1)">
+      <node ref="U3" pin="14"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="63" name="Net-(JP7-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="JP7" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>

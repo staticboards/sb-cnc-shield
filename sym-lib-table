@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sb-cnc-shield-rescue)(type Legacy)(uri ${KIPRJMOD}/sb-cnc-shield-rescue.lib)(options "")(descr ""))
+)

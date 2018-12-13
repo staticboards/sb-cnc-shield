@@ -5,3 +5,5 @@ gerber
 gerber/*
 bak
 bak/*
+*.zip
+rescue-backup/
